@@ -1,5 +1,6 @@
 
 from cgitb import small
+from dis import Instruction
 from turtle import Screen, back, title
 from webbrowser import BackgroundBrowser
 import pygame
@@ -18,6 +19,8 @@ class main():
     
     #se agrego la interzas
     intro_image = pygame.image.load("PORTADA1.png")
+    instruction_background=pygame.image.load("intruction1.png")
+    
 def intro_loop():
     intro=True
     while intro:
@@ -27,15 +30,25 @@ def intro_loop():
                 quit()
                 sys.exit()
         main.screen.blit(main.intro_image,(0,0))  
+        
+   
+        
        
         pygame.draw.rect(main.screen,white,(80,280,150,50))
         pygame.draw.rect(main.screen,white,(327,280,165,50))
         pygame.draw.rect(main.screen,white,(580,280,150,50))
+         ##funtion the botons ##
         mouse=pygame.mouse.get_pos()
+        click=pygame.mouse.get_pressed()
+        #print(click)
+        
+
         #print(mouse)
         
         if mouse[0] >80 and mouse[0]<230 and mouse[1]>280 and mouse[1]<330:
             pygame.draw.rect(main.screen,silver,(80,280,150,50))
+            if click ==(1,0,0):
+                framework()
         else:
            pygame.draw.rect(main.screen,white,(80,280,150,50)) 
         
@@ -46,6 +59,8 @@ def intro_loop():
 
         if mouse[0] >336 and mouse[0]<485 and mouse[1]>280 and mouse[1]<330:
             pygame.draw.rect(main.screen,silver,(327,280,165,50))
+            if click==(1,0,0):
+                instruction()
         else:
             pygame.draw.rect(main.screen,white,(327,280,165,50))
            
@@ -56,6 +71,9 @@ def intro_loop():
         
         if mouse[0] >580 and mouse[0]<730 and mouse[1]>280 and mouse[1]<330:
             pygame.draw.rect(main.screen,silver,(580,280,150,50))
+            if click==(1,0,0):
+                pygame.quit()
+                quit()
         else:
             pygame.draw.rect(main.screen,white,(580,280,150,50))
 
@@ -68,6 +86,47 @@ def intro_loop():
         
 
         #
+
+def instruction():
+    instruction=True
+    clock = pygame.time.Clock()
+    while instruction:
+        for event in pygame.event.get():
+            if event.type ==pygame.QUIT:
+                pygame.quit()
+                quit()
+                sys.exit()
+         
+
+        main.screen.blit(main.instruction_background,(0,0))
+        
+        largetext =pygame.font.Font("freesansbold.ttf",80)
+        mediumtext =pygame.font.Font("freesansbold.ttf",40)
+        smalltext =pygame.font.Font("freesansbold.ttf",20)
+        
+        pygame.draw.rect(main.screen,white,(650,5,150,50))
+        
+        
+        mouse =pygame.mouse.get_pos()
+        if mouse[0]>580 and mouse[0]<730 and mouse[1]>300 and mouse[1]<350:
+            pygame.draw.rect(main.screen,silver,(650,5,150,50))
+        else:
+            pygame.draw.rect(main.screen,white,(650,5,150,50))
+            
+            smallText=pygame.font.Font("freesansbold.ttf",20)
+        textSurface,textRect =text_objects("BACK",smallText)
+        textRect.center =(650+(150/2),5+(50/2))
+        main.screen.blit(textSurface,textRect)
+        
+        click =pygame.mouse.get_pressed()
+        if click == (1,0,0):
+            intro_loop()
+        
+
+            
+        pygame.display.update()
+        clock.tick(30)
+
 def text_objects(text,font):
     textSurface=font.render(text,True,(0,0,0))
     return textSurface,textSurface.get_rect()
