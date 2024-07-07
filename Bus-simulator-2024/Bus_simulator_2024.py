@@ -1,6 +1,5 @@
 
-from turtle import back
-from webbrowser import BackgroundBrowser
+
 import pygame
 import sys
 
@@ -10,7 +9,14 @@ class main():
     screen = pygame.display.set_mode(size)
     pygame.display.set_caption("Ventana");
     numberOfYellowStripImg=7
-
+    cont=0
+    stopCont=0
+    stationStop=0
+    acceleration=1
+    numberImg=1
+    personCont=0
+    movPerson=4
+    pauseMov=0
 def timeMovement():
     clock= pygame.time.Clock()
     clock.tick(100)
@@ -43,14 +49,21 @@ def fund():
     main.screen.blit(passengers, (460,125)) 
  
 def movementStrip():
-    floortextureImg= pygame.image.load("grass.jpeg")
+    floortextureImg= pygame.image.load("grass.png")
     stripImg= pygame.image.load("strip.jpg")
     yellowStripImg=pygame.image.load("yellow_strip.jpg")
-    rel_y = main.numberOfYellowStripImg % floortextureImg.get_rect().width
-    main.screen.blit(yellowStripImg, (-150, rel_y - floortextureImg.get_rect().width))
-    main.screen.blit(yellowStripImg, (700, rel_y - floortextureImg.get_rect().width))
+    stopImg=pygame.image.load("stop.png")
+    person=pygame.image.load("persprue.png")
+   
+    if main.numberImg<=10:
+     recreoStopImg=pygame.image.load("shutdown"+repr(main.numberImg)+".png")
+    rel_y = main.numberOfYellowStripImg % 103
+    main.screen.blit(floortextureImg, (0, rel_y - 103))
+    main.screen.blit(floortextureImg, (700, rel_y - 103))
+    main.cont+=1
+  
     if rel_y < 800:
-       main.screen.blit(floortextureImg, (-150, rel_y))
+       main.screen.blit(floortextureImg, (0, rel_y))
        main.screen.blit(floortextureImg, (700, rel_y))
        main.screen.blit(yellowStripImg,  (400, rel_y))
        main.screen.blit(yellowStripImg,  (400, rel_y + 100))
@@ -59,13 +72,56 @@ def movementStrip():
        main.screen.blit(yellowStripImg,  (400, rel_y + 400))
        main.screen.blit(yellowStripImg,  (400, rel_y + 500))
        main.screen.blit(yellowStripImg,  (400, rel_y - 100))
-       main.screen.blit(stripImg, (130, rel_y - 200))
+       main.screen.blit(stripImg, (130, rel_y - 300))
        main.screen.blit(stripImg, (130, rel_y + 20))
        main.screen.blit(stripImg, (130, rel_y + 30))
-       main.screen.blit(stripImg, (670, rel_y - 100))
+       main.screen.blit(stripImg, (670, rel_y - 300))
        main.screen.blit(stripImg, (670, rel_y + 20))
        main.screen.blit(stripImg, (670, rel_y + 30))
-       main.numberOfYellowStripImg += 7
+       if main.cont>1000 and (main.stopCont%800-200)<580:
+           main.stopCont+=main.acceleration
+           main.screen.blit(stopImg, (0, main.stopCont%800-200))    
+           
+       if (main.stopCont%800-200)>-80 and (main.stationStop%800-200)<580:
+              main.stationStop+=main.acceleration
+              main.screen.blit(recreoStopImg,(0,main.stationStop%800-200))
+       if main.acceleration>0:       
+        if(main.stationStop%800-200)>0 and (main.personCont%800-200)<580:
+          main.personCont+=main.acceleration
+          main.screen.blit(person,(60 ,main.personCont))  
+          
+       else:
+          if main.pauseMov<10:
+           main.personCont+=main.movPerson
+           main.screen.blit(person,(main.personCont%150,246)) 
+           print(main.personCont%150)
+           main.pauseMov+=1
+          
+       main.numberOfYellowStripImg += main.acceleration
+       if main.cont<=583:
+         if main.cont%53==0 and main.acceleration<20:      
+          if main.acceleration<=11:
+            main.acceleration+=1 
+            
+         
+       else:
+         if main.cont%53==0 and main.cont<=1219 :
+          main.acceleration+=-1  
+          
+       if main.cont>1400 and main.cont>2200:
+          if main.cont%53==0 and main.acceleration<20:      
+           if main.acceleration<=11:
+            main.acceleration+=1 
+           
+       if main.cont==2400 :
+        main.stopCont=0
+      
+        main.stationStop=0
+        main.numberImg+=1
+        main.cont=0
+        
+       
+
 
 def busPositioning(x,y):
     busImg=pygame.image.load("staffBus.png")

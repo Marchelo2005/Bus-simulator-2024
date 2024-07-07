@@ -14,8 +14,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +28,7 @@
               "RelativeDocumentMoniker": "Bus-simulator-2024\\Bus_simulator_2024.py",
               "ToolTip": "C:\\Users\\User\\source\\repos\\Bus-simulator-2024\\Bus-simulator-2024\\Bus_simulator_2024.py",
               "RelativeToolTip": "Bus-simulator-2024\\Bus_simulator_2024.py",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAkAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAF0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-07-03T23:26:17.253Z",
               "EditorCaption": ""
