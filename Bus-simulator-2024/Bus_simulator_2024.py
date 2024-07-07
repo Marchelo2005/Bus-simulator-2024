@@ -1,8 +1,13 @@
 
-from turtle import back
+from cgitb import small
+from turtle import Screen, back, title
 from webbrowser import BackgroundBrowser
 import pygame
 import sys
+
+#colors
+white =(255,255,255)
+silver=(192,192,192)
 
 class main():
     pygame.init()
@@ -10,6 +15,63 @@ class main():
     screen = pygame.display.set_mode(size)
     pygame.display.set_caption("Ventana");
     numberOfYellowStripImg=7
+    
+    #se agrego la interzas
+    intro_image = pygame.image.load("PORTADA1.png")
+def intro_loop():
+    intro=True
+    while intro:
+        for event in pygame.event.get():
+            if event.type ==pygame.QUIT:
+                pygame.quit()
+                quit()
+                sys.exit()
+        main.screen.blit(main.intro_image,(0,0))  
+       
+        pygame.draw.rect(main.screen,white,(80,280,150,50))
+        pygame.draw.rect(main.screen,white,(327,280,165,50))
+        pygame.draw.rect(main.screen,white,(580,280,150,50))
+        mouse=pygame.mouse.get_pos()
+        #print(mouse)
+        
+        if mouse[0] >80 and mouse[0]<230 and mouse[1]>280 and mouse[1]<330:
+            pygame.draw.rect(main.screen,silver,(80,280,150,50))
+        else:
+           pygame.draw.rect(main.screen,white,(80,280,150,50)) 
+        
+        smallText =pygame.font.Font("freesansbold.ttf",20)
+        textSurface,textRect=text_objects("START",smallText)
+        textRect.center =((80+(150/2)),(280+(50/2)))
+        main.screen.blit(textSurface,textRect)
+
+        if mouse[0] >336 and mouse[0]<485 and mouse[1]>280 and mouse[1]<330:
+            pygame.draw.rect(main.screen,silver,(327,280,165,50))
+        else:
+            pygame.draw.rect(main.screen,white,(327,280,165,50))
+           
+        smallText =pygame.font.Font("freesansbold.ttf",20)
+        textSurface,textRect=text_objects("INTRODUCTION",smallText)
+        textRect.center =((336+(150/2)),(280+(50/2)))
+        main.screen.blit(textSurface,textRect)
+        
+        if mouse[0] >580 and mouse[0]<730 and mouse[1]>280 and mouse[1]<330:
+            pygame.draw.rect(main.screen,silver,(580,280,150,50))
+        else:
+            pygame.draw.rect(main.screen,white,(580,280,150,50))
+
+        smallText =pygame.font.Font("freesansbold.ttf",20)
+        textSurface,textRect=text_objects("CLOSE",smallText)
+        textRect.center =((580+(150/2)),(280+(50/2)))
+        main.screen.blit(textSurface,textRect)
+
+        pygame.display.update()
+        
+
+        #
+def text_objects(text,font):
+    textSurface=font.render(text,True,(0,0,0))
+    return textSurface,textSurface.get_rect()
+
 
 def timeMovement():
     clock= pygame.time.Clock()
@@ -87,4 +149,7 @@ def framework():
         busPositioning(0,0)   
         pygame.display.flip()
         
+
+        intro_loop();  
+
 framework();
