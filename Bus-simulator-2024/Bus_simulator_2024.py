@@ -6,9 +6,15 @@ from webbrowser import BackgroundBrowser
 import pygame
 import sys
 
+
+
+
+
 #colors
 white =(255,255,255)
 silver=(192,192,192)
+##color punto##
+red = (255, 0, 0)
 
 class main():
     pygame.init()
@@ -20,7 +26,17 @@ class main():
     #se agrego la interzas
     intro_image = pygame.image.load("PORTADA1.png")
     instruction_background=pygame.image.load("intruction1.png")
-    
+ ##agregar punto##
+    points = [(175,230),(196,230),(175,294),(197,294),(172,324),
+              (195,324),(174,357), (195,354), 
+              (172,388),(196,388),(172,461),(196,461),
+              (172,496),(197,496),(221,496),(245,496),
+              (267,496),(266,422),
+              (244,422),(265,393),(243,393),(266,393),
+              (244,360),(266,358),(243,357),(267,325),
+              (243,327),(265,325),(266,294),
+              (243,294),(266,263),(243,263),(266,228)]
+   
 def intro_loop():
     intro=True
     while intro:
@@ -43,7 +59,7 @@ def intro_loop():
         #print(click)
         
 
-        #print(mouse)
+        print(mouse)
         
         if mouse[0] >80 and mouse[0]<230 and mouse[1]>280 and mouse[1]<330:
             pygame.draw.rect(main.screen,silver,(80,280,150,50))
@@ -61,6 +77,8 @@ def intro_loop():
             pygame.draw.rect(main.screen,silver,(327,280,165,50))
             if click==(1,0,0):
                 instruction()
+                pygame.quit()
+                quit()
         else:
             pygame.draw.rect(main.screen,white,(327,280,165,50))
            
@@ -139,21 +157,21 @@ def fund():
     font=pygame.font.SysFont(None,20) 
     x=(800*0.45)
     y=(600*0.8)
-    #floortextureImg= pygame.image.load("grass.jpeg")
-    #stripImg= pygame.image.load("strip.jpg")
-    #yellowStripImg=pygame.image.load("yellow_strip.jpg")
+    floortextureImg= pygame.image.load("grass.jpeg")
+    stripImg= pygame.image.load("strip.jpg")
+    yellowStripImg=pygame.image.load("yellow_strip.jpg")
    
-    #main.screen.blit(floortextureImg,(-150,0));
-    #main.screen.blit(floortextureImg,(700,0));
-    #main.screen.blit(yellowStripImg, (400,0))
-    #main.screen.blit(yellowStripImg, (400,100))
-    #main.screen.blit(yellowStripImg, (400,200))
-    #main.screen.blit(yellowStripImg, (400,300))
-    #main.screen.blit(yellowStripImg, (400,400))
-    #main.screen.blit(yellowStripImg, (400,500))
-    #main.screen.blit(yellowStripImg, (400,600))
-    #main.screen.blit(stripImg, (130,0))
-    #main.screen.blit(stripImg, (670,0))
+    main.screen.blit(floortextureImg,(-150,0));
+    main.screen.blit(floortextureImg,(700,0));
+    main.screen.blit(yellowStripImg, (400,0))
+    main.screen.blit(yellowStripImg, (400,100))
+    main.screen.blit(yellowStripImg, (400,200))
+    main.screen.blit(yellowStripImg, (400,300))
+    main.screen.blit(yellowStripImg, (400,400))
+    main.screen.blit(yellowStripImg, (400,500))
+    main.screen.blit(yellowStripImg, (400,600))
+    main.screen.blit(stripImg, (130,0))
+    main.screen.blit(stripImg, (670,0))
      
       
     moneyCollected=font.render("Money collected", True, (255,255,255))
@@ -163,7 +181,7 @@ def fund():
     main.screen.blit(maximumCapacity, (460,75))
     main.screen.blit(passengers, (460,125)) 
  
-def movementStrip():
+"""def movementStrip():
     floortextureImg= pygame.image.load("grass.jpeg")
     stripImg= pygame.image.load("strip.jpg")
     yellowStripImg=pygame.image.load("yellow_strip.jpg")
@@ -186,7 +204,7 @@ def movementStrip():
        main.screen.blit(stripImg, (670, rel_y - 100))
        main.screen.blit(stripImg, (670, rel_y + 20))
        main.screen.blit(stripImg, (670, rel_y + 30))
-       main.numberOfYellowStripImg += 7
+       main.numberOfYellowStripImg += 7 """
 
 def busPositioning(x,y):
     busImg=pygame.image.load("staffBus.png")
@@ -194,6 +212,11 @@ def busPositioning(x,y):
     main.screen.blit(busImg,(700,200))  
     main.screen.blit(busInsideImg,(100,50)) 
     
+ ##dibujar los puntos##
+def draw_points(points):
+    for point in points:
+        pygame.draw.circle(main.screen, red, point, 5)
+
 
 
 def framework():
@@ -204,6 +227,25 @@ def framework():
                 sys.exit()        
         main.screen.fill((119, 119, 119))
         fund();
+##agregar punto
+def framework():
+    while True:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                sys.exit()        
+        main.screen.fill((119, 119, 119))
+        fund()
+        
+        busPositioning(0, 0)
+        
+        # Llamada para dibujar el punto rojo
+        draw_points(main.points)  # Coordenadas del punto rojo
+
+        pygame.display.flip()
+
+        intro_loop()
+#################################
         movementStrip();
         busPositioning(0,0)   
         pygame.display.flip()
