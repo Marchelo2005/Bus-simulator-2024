@@ -1,7 +1,7 @@
 import pygame
 import sys
 
-class main(object):
+class movementBus:
     pygame.init()
     size = (800, 600)
     screen = pygame.display.set_mode(size)
@@ -16,7 +16,7 @@ class main(object):
     personCont=0
     movPerson=1
     pauseMov=0
-    def fund():
+def fund():
      font=pygame.font.SysFont(None,20) 
      x=(800*0.45)
      y=(600*0.8)
@@ -40,104 +40,104 @@ class main(object):
      moneyCollected=font.render("Money collected", True, (255,255,255))
      maximumCapacity=font.render("Maximum capacity", True, (0,0,0))
      passengers=font.render("Passengers", True, (0,0,0))
-     main.screen.blit(moneyCollected, (460,25))
-     main.screen.blit(maximumCapacity, (460,75))
-     main.screen.blit(passengers, (460,125)) 
-    def movementStrip():
+     movementBus.screen.blit(moneyCollected, (460,25))
+     movementBus.screen.blit(maximumCapacity, (460,75))
+     movementBus.screen.blit(passengers, (460,125)) 
+def movementStrip():
      floortextureImg= pygame.image.load("grass.png")
      stripImg= pygame.image.load("strip.jpg")
      yellowStripImg=pygame.image.load("yellow_strip.jpg")
      stopImg=pygame.image.load("stop.png")
      person=pygame.image.load("persprue.png")
    
-     if main.numberImg<=10:
-      recreoStopImg=pygame.image.load("shutdown"+repr(main.numberImg)+".png")
-      rel_y = main.numberOfYellowStripImg % 103
-      main.screen.blit(floortextureImg, (0, rel_y - 103))
-      main.screen.blit(floortextureImg, (700, rel_y - 103))
-      main.cont+=1
+     if movementBus.numberImg<=10:
+      recreoStopImg=pygame.image.load("shutdown"+repr(movementBus.numberImg)+".png")
+      rel_y = movementBus.numberOfYellowStripImg % 103
+      movementBus.screen.blit(floortextureImg, (0, rel_y - 103))
+      movementBus.screen.blit(floortextureImg, (700, rel_y - 103))
+      movementBus.cont+=1
   
      if rel_y < 800:
-       main.screen.blit(floortextureImg, (0, rel_y))
-       main.screen.blit(floortextureImg, (700, rel_y))
-       main.screen.blit(yellowStripImg,  (400, rel_y))
-       main.screen.blit(yellowStripImg,  (400, rel_y + 100))
-       main.screen.blit(yellowStripImg,  (400, rel_y + 200))
-       main.screen.blit(yellowStripImg,  (400, rel_y + 300))
-       main.screen.blit(yellowStripImg,  (400, rel_y + 400))
-       main.screen.blit(yellowStripImg,  (400, rel_y + 500))
-       main.screen.blit(yellowStripImg,  (400, rel_y - 100))
-       main.screen.blit(stripImg, (130, rel_y - 300))
-       main.screen.blit(stripImg, (130, rel_y + 20))
-       main.screen.blit(stripImg, (130, rel_y + 30))
-       main.screen.blit(stripImg, (670, rel_y - 300))
-       main.screen.blit(stripImg, (670, rel_y + 20))
-       main.screen.blit(stripImg, (670, rel_y + 30))
-       if main.cont>1000 and (main.stopCont%800-200)<580:
-           main.stopCont+=main.acceleration
-           main.screen.blit(stopImg, (0, main.stopCont%800-200))    
+       movementBus.screen.blit(floortextureImg, (0, rel_y))
+       movementBus.screen.blit(floortextureImg, (700, rel_y))
+       movementBus.screen.blit(yellowStripImg,  (400, rel_y))
+       movementBus.screen.blit(yellowStripImg,  (400, rel_y + 100))
+       movementBus.screen.blit(yellowStripImg,  (400, rel_y + 200))
+       movementBus.screen.blit(yellowStripImg,  (400, rel_y + 300))
+       movementBus.screen.blit(yellowStripImg,  (400, rel_y + 400))
+       movementBus.screen.blit(yellowStripImg,  (400, rel_y + 500))
+       movementBus.screen.blit(yellowStripImg,  (400, rel_y - 100))
+       movementBus.screen.blit(stripImg, (130, rel_y - 300))
+       movementBus.screen.blit(stripImg, (130, rel_y + 20))
+       movementBus.screen.blit(stripImg, (130, rel_y + 30))
+       movementBus.screen.blit(stripImg, (670, rel_y - 300))
+       movementBus.screen.blit(stripImg, (670, rel_y + 20))
+       movementBus.screen.blit(stripImg, (670, rel_y + 30))
+       if movementBus.cont>1000 and (movementBus.stopCont%800-200)<580:
+           movementBus.stopCont+=movementBus.acceleration
+           movementBus.screen.blit(stopImg, (0, movementBus.stopCont%800-200))    
            
-       if (main.stopCont%800-200)>-80 and (main.stationStop%800-200)<580:
-              main.stationStop+=main.acceleration
-              main.screen.blit(recreoStopImg,(0,main.stationStop%800-200))
+       if (movementBus.stopCont%800-200)>-80 and (movementBus.stationStop%800-200)<580:
+              movementBus.stationStop+=movementBus.acceleration
+              movementBus.screen.blit(recreoStopImg,(0,movementBus.stationStop%800-200))
              
-       if main.acceleration>0:       
-        if(main.stationStop%800-200)>0 and (main.personCont%800-200)<45:
-          main.personCont+=main.acceleration
-          main.screen.blit(person,(60 ,main.personCont-10))  
-          main.pauseMov=0
+       if movementBus.acceleration>0:       
+        if(movementBus.stationStop%800-200)>0 and (movementBus.personCont%800-200)<45:
+          movementBus.personCont+=movementBus.acceleration
+          movementBus.screen.blit(person,(60 ,movementBus.personCont-10))  
+          movementBus.pauseMov=0
         
 
        else:
-          if main.pauseMov<40:
-           main.personCont+=main.movPerson
-           main.screen.blit(person,(main.personCont%150,236)) 
-           main.pauseMov+=1
+          if movementBus.pauseMov<40:
+           movementBus.personCont+=movementBus.movPerson
+           movementBus.screen.blit(person,(movementBus.personCont%150,236)) 
+           movementBus.pauseMov+=1
           
-       main.numberOfYellowStripImg += main.acceleration
-       if main.cont<=583:
-         if main.cont%53==0 and main.acceleration<20:      
-          if main.acceleration<=11:
-            main.acceleration+=1 
+       movementBus.numberOfYellowStripImg += movementBus.acceleration
+       if movementBus.cont<=583:
+         if movementBus.cont%53==0 and movementBus.acceleration<20:      
+          if movementBus.acceleration<=11:
+            movementBus.acceleration+=1 
             
          
        else:
-         if main.cont%53==0 and main.cont<=1219 :
-          main.acceleration+=-1  
+         if movementBus.cont%53==0 and movementBus.cont<=1219 :
+          movementBus.acceleration+=-1  
           
-       if main.cont>1400 and main.cont>2200:
-          if main.cont%53==0 and main.acceleration<20:      
-           if main.acceleration<=11:
-            main.acceleration+=1 
+       if movementBus.cont>1400 and movementBus.cont>2200:
+          if movementBus.cont%53==0 and movementBus.acceleration<20:      
+           if movementBus.acceleration<=11:
+            movementBus.acceleration+=1 
            
-       if main.cont==2400 :
-        main.stopCont=0
-        main.personCont=0
-        main.stationStop=0
-        main.numberImg+=1
-        main.cont=0
-
-    def busPositioning(x,y):
+       if movementBus.cont==2400 :
+        movementBus.stopCont=0
+        movementBus.personCont=0
+        movementBus.stationStop=0
+        movementBus.numberImg+=1
+        movementBus.cont=0
+def busPositioning(x,y):
      busImg=pygame.image.load("staffBus.png")
      busInsideImg=pygame.image.load("busInside.png")
-     main.screen.blit(busImg,(700,200))  
-     main.screen.blit(busInsideImg,(100,50)) 
-    def framework():
+     movementBus.screen.blit(busImg,(700,200))  
+     movementBus.screen.blit(busInsideImg,(100,50)) 
+def framework():
      while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()        
-        main.screen.fill((119, 119, 119))
-        main.mouse = pygame.mouse.get_pos()  
+        movementBus.screen.fill((119, 119, 119))
+        movementBus.mouse = pygame.mouse.get_pos()  
          
         fund();
         movementStrip();
         busPositioning(0,0)   
         pygame.display.flip()
  
-    framework();
-    pass
+        
+
+pass
 
 
 

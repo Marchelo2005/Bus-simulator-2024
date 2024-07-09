@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{44C52B40-F506-42F3-9525-102726257116}|Bus-simulator-2024\\Bus-simulator-2024.pyproj|C:\\Users\\User\\source\\repos\\Bus-simulator-2024\\Bus-simulator-2024\\Bus_simulator_2024.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{44C52B40-F506-42F3-9525-102726257116}|Bus-simulator-2024\\Bus-simulator-2024.pyproj|solutionrelative:Bus-simulator-2024\\Bus_simulator_2024.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\Bus-simulator-2024\\movementBus.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:movementBus.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "movementBus.py",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Bus-simulator-2024\\movementBus.py",
+              "RelativeDocumentMoniker": "movementBus.py",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Bus-simulator-2024\\movementBus.py",
+              "RelativeToolTip": "movementBus.py",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-09T03:45:59.436Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Bus-simulator-2024\\Bus_simulator_2024.py",
               "ToolTip": "C:\\Users\\User\\source\\repos\\Bus-simulator-2024\\Bus-simulator-2024\\Bus_simulator_2024.py",
               "RelativeToolTip": "Bus-simulator-2024\\Bus_simulator_2024.py",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAAAJQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-07-03T23:26:17.253Z",
               "EditorCaption": ""
