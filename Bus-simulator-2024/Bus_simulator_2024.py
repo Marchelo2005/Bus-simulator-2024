@@ -16,6 +16,7 @@ class Main:
     # se agregó la interfaz
     intro_image = pygame.image.load("PORTADA1.png")
     instruction_background = pygame.image.load("intruction1.png")
+    instruction_backgroundtwo=pygame.image.load("interfaz2.png")
 
     # agregar punto
     points = [
@@ -168,7 +169,7 @@ def paused():
                 pygame.quit()
                 quit()
                 sys.exit()
-        Main.screen.blit(Main.instruction_background, (0, 0))
+        Main.screen.blit(Main.instruction_backgroundtwo, (0, 0))
 
         largeText = pygame.font.Font("freesansbold.ttf", 115)
         textSurf, textRect = text_objects("PAUSED", largeText)
