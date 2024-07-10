@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 from tkinter.tix import Form
-=======
->>>>>>> origin/master
+
 import pygame
 import sys
 import movementBus
@@ -15,7 +14,7 @@ class Main:
     pygame.init()
     size = (800, 600)
     screen = pygame.display.set_mode(size)
-<<<<<<< HEAD
+
     pygame.display.set_caption("Ventana");
     numberOfYellowStripImg=7
     mouse=pygame.mouse.get_pos()
@@ -29,7 +28,7 @@ class Main:
     pauseMov=0
    
   
-=======
+
     pygame.display.set_caption("Ventana")
     numberOfYellowStripImg = 7
 
@@ -71,7 +70,7 @@ def intro_loop():
         if 80 < mouse[0] < 230 and 280 < mouse[1] < 330:
             pygame.draw.rect(Main.screen, silver, (80, 280, 150, 50))
             if click == (1, 0, 0):
-                framework()
+                movementBus.framework()
         else:
             pygame.draw.rect(Main.screen, white, (80, 280, 150, 50)) 
 
@@ -108,7 +107,7 @@ def intro_loop():
         pygame.display.update()
 
 def instruction():
-    # Loop de instrucciones
+   
     instruction = True
     clock = pygame.time.Clock()
     while instruction:
@@ -149,16 +148,11 @@ def text_objects(text, font):
     textSurface = font.render(text, True, (0, 0, 0))
     return textSurface, textSurface.get_rect()
 
->>>>>>> origin/master
 def timeMovement():
     # Control del tiempo
     clock = pygame.time.Clock()
     clock.tick(100)
-<<<<<<< HEAD
-  
-movementBus.framework()    
- 
-=======
+
 
 def fund():
     # Función para mostrar fondo y elementos estáticos
@@ -313,4 +307,4 @@ def framework():
         pygame.display.flip()
 
 intro_loop()
->>>>>>> origin/master
+
