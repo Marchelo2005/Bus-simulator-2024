@@ -1,6 +1,7 @@
+from tkinter.tix import Form
 import pygame
 import sys
-
+import movementBus
 
 class main():
     pygame.init()
@@ -22,4 +23,6 @@ class main():
 def timeMovement():
     clock= pygame.time.Clock()
     clock.tick(100)
-    
+  
+movementBus.framework()    
+ 
