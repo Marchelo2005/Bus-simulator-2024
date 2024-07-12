@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bus-simulator-2024"
   ],
-  "SelectedNode": "\\Bus-simulator-2024.sln",
+  "SelectedNode": "\\Bus-simulator-2024\\movementBus.py",
   "PreviewInSolutionExplorer": false
 }

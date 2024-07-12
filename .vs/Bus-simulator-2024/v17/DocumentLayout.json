@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Update Proyect\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\ProyectUpdate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44C52B40-F506-42F3-9525-102726257116}|Bus-simulator-2024\\Bus-simulator-2024.pyproj|C:\\Users\\User\\source\\repos\\Update Proyect\\Bus-simulator-2024\\Bus_simulator_2024.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\ProyectUpdate\\Bus-simulator-2024\\faceDetector.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bus-simulator-2024\\faceDetector.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C52B40-F506-42F3-9525-102726257116}|Bus-simulator-2024\\Bus-simulator-2024.pyproj|C:\\Users\\User\\source\\repos\\ProyectUpdate\\Bus-simulator-2024\\Bus_simulator_2024.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{44C52B40-F506-42F3-9525-102726257116}|Bus-simulator-2024\\Bus-simulator-2024.pyproj|solutionrelative:Bus-simulator-2024\\Bus_simulator_2024.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\Update Proyect\\Bus-simulator-2024\\movementBus.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Users\\User\\source\\repos\\ProyectUpdate\\Bus-simulator-2024\\movementBus.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Bus-simulator-2024\\movementBus.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -18,30 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "movementBus.py",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Update Proyect\\Bus-simulator-2024\\movementBus.py",
-              "RelativeDocumentMoniker": "Bus-simulator-2024\\movementBus.py",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Update Proyect\\Bus-simulator-2024\\movementBus.py",
-              "RelativeToolTip": "Bus-simulator-2024\\movementBus.py",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "faceDetector.py",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProyectUpdate\\Bus-simulator-2024\\faceDetector.py",
+              "RelativeDocumentMoniker": "Bus-simulator-2024\\faceDetector.py",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProyectUpdate\\Bus-simulator-2024\\faceDetector.py",
+              "RelativeToolTip": "Bus-simulator-2024\\faceDetector.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-07-10T17:30:26.738Z",
+              "WhenOpened": "2024-07-11T00:47:01.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "movementBus.py",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProyectUpdate\\Bus-simulator-2024\\movementBus.py",
+              "RelativeDocumentMoniker": "Bus-simulator-2024\\movementBus.py",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProyectUpdate\\Bus-simulator-2024\\movementBus.py",
+              "RelativeToolTip": "Bus-simulator-2024\\movementBus.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-10T21:14:12.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Bus_simulator_2024.py",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Update Proyect\\Bus-simulator-2024\\Bus_simulator_2024.py",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\ProyectUpdate\\Bus-simulator-2024\\Bus_simulator_2024.py",
               "RelativeDocumentMoniker": "Bus-simulator-2024\\Bus_simulator_2024.py",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Update Proyect\\Bus-simulator-2024\\Bus_simulator_2024.py",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\ProyectUpdate\\Bus-simulator-2024\\Bus_simulator_2024.py",
               "RelativeToolTip": "Bus-simulator-2024\\Bus_simulator_2024.py",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEgAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-07-10T17:25:28.381Z",
               "EditorCaption": ""
