@@ -1,11 +1,21 @@
 import pygame
 import sys
 import cv2 
+import random
 
 # colores
 white = (255, 255, 255)
 silver = (192, 192, 192)
-
+red = (255, 0, 0)  # color del punto
+points = [
+        (175, 230), (196, 230), (175, 294), (197, 294), (172, 324),
+        (195, 324), (174, 357), (195, 354), (172, 388), (196, 388),
+        (172, 461), (196, 461), (172, 496), (197, 496), (221, 496),
+        (245, 496), (267, 496), (266, 422), (244, 422), (265, 393),
+        (243, 393), (266, 393), (244, 360), (266, 358), (243, 357),
+        (267, 325), (243, 327), (265, 325), (266, 294), (243, 294),
+        (266, 263), (243, 263), (266, 228)
+    ]
 class movementBus:
     pygame.init()
     size = (800, 600)
@@ -17,10 +27,9 @@ class movementBus:
     positionOfOutputMovement=135
     
 def paused():
-    # Pausa del juego
+    # Pausa 
     instructionBackgroundtwo=pygame.image.load("interfaz2.png")
-    pause = True
-    while pause:
+    while True:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
@@ -32,52 +41,60 @@ def paused():
         textSurf, textRect = text_objects("PAUSED", largeText)
         textRect.center = (400, 300)
         movementBus.screen.blit(textSurf, textRect)
-
-        mouse = pygame.mouse.get_pos()
-        click = pygame.mouse.get_pressed()
-
         # FOR CONTINUE
-        if 100 < mouse[0] < 250 and 450 < mouse[1] < 500:
-            pygame.draw.rect(movementBus.screen, silver, (100, 450, 150, 50))
-            if click == (1, 0, 0):
-                pause = False
-        else:
-            pygame.draw.rect(movementBus.screen, white, (100, 450, 150, 50))
-
-        smallText = pygame.font.Font("freesansbold.ttf", 20)
-        textSurf, textRect = text_objects("CONTINUE", smallText)
-        textRect.center = (175, 475)
-        movementBus.screen.blit(textSurf, textRect)
-
+        continueButton()
         # FOR RESTART
-        if 350 < mouse[0] < 500 and 450 < mouse[1] < 500:
-            pygame.draw.rect(movementBus.screen, silver, (350, 450, 150, 50))
-            if click == (1, 0, 0):
-                movementStrip()
-                framework()  # Aquí puedes reiniciar tu juego
-        else:
-            pygame.draw.rect(movementBus.screen, white, (350, 450, 150, 50))
-
-        smallText = pygame.font.Font("freesansbold.ttf", 20)
-        textSurf, textRect = text_objects("RESTART", smallText)
-        textRect.center = (425, 475)
-        movementBus.screen.blit(textSurf, textRect)
-       
+        restartButton()
         # FOR MAIN MENU
-        if 600 < mouse[0] < 750 and 450 < mouse[1] < 500:
-            pygame.draw.rect(movementBus.screen, silver, (600, 450, 150, 50))
-            if click == (1, 0, 0):
-                from Bus_simulator_2024 import Main
-                Main.introLoop()
-        else:
-            pygame.draw.rect(movementBus.screen, white, (600, 450, 150, 50))
-
-        smallText = pygame.font.Font("freesansbold.ttf", 20)
-        textSurf, textRect = text_objects("MAIN MENU", smallText)
-        textRect.center = (675, 475)
-        movementBus.screen.blit(textSurf, textRect)
+        mainMenuButton()
 
         pygame.display.update()
+def continueButton():
+  
+  mouse = pygame.mouse.get_pos()
+  click = pygame.mouse.get_pressed()
+  if 100 < mouse[0] < 250 and 450 < mouse[1] < 500:
+    pygame.draw.rect(movementBus.screen, silver, (100, 450, 150, 50))
+    if click == (1, 0, 0):
+     movementStrip()
+     framework()
+  else:
+     pygame.draw.rect(movementBus.screen, white, (100, 450, 150, 50))
+  smallText = pygame.font.Font("freesansbold.ttf", 20)
+  textSurf, textRect = text_objects("CONTINUE", smallText)
+  textRect.center = (175, 475)
+  movementBus.screen.blit(textSurf, textRect)
+    
+def restartButton():
+ mouse = pygame.mouse.get_pos()
+ click = pygame.mouse.get_pressed()
+ if 350 < mouse[0] < 500 and 450 < mouse[1] < 500:
+   pygame.draw.rect(movementBus.screen, silver, (350, 450, 150, 50))
+   if click == (1, 0, 0):
+    movementStrip()
+    framework()  # Aquí puedes reiniciar tu juego
+ else:
+   pygame.draw.rect(movementBus.screen, white, (350, 450, 150, 50))
+ smallText = pygame.font.Font("freesansbold.ttf", 20)
+ textSurf, textRect = text_objects("RESTART", smallText)
+ textRect.center = (425, 475)
+ movementBus.screen.blit(textSurf, textRect) 
+
+def mainMenuButton():
+  mouse = pygame.mouse.get_pos()
+  click = pygame.mouse.get_pressed()
+  if 600 < mouse[0] < 750 and 450 < mouse[1] < 500:
+    pygame.draw.rect(movementBus.screen, silver, (600, 450, 150, 50))
+    if click == (1, 0, 0):
+      from Bus_simulator_2024 import Main
+      Main.introLoop()
+  else:
+   pygame.draw.rect(movementBus.screen, white, (600, 450, 150, 50))
+  smallText = pygame.font.Font("freesansbold.ttf", 20)
+  textSurf, textRect = text_objects("MAIN MENU", smallText)
+  textRect.center = (675, 475)
+  movementBus.screen.blit(textSurf, textRect)   
+    
 def fund():
      font=pygame.font.SysFont(None,20)  
      moneyCollected=font.render("Money collected", True, (255,255,255))
@@ -99,8 +116,12 @@ def movementStrip():
      person=pygame.image.load("persprue.png")
      rel_y = movementBus.numberOfYellowStripImg % 103  
      if movementBus.numberImg==11:
-        movementBus().numberImg=1
-        print(movementBus().numberImg)
+        rel_y=0
+        movementBus.cont, movementBus.stopCont, movementBus.stationStop, movementBus.personCont, movementBus.pauseMov = 0, 0, 0, 0, 0
+        movementBus.acceleration,movementBus.numberImg, movementBus.movPerson=1,1,1
+        from Bus_simulator_2024 import Main
+        Main.introLoop()
+        
      else:
         recreoStopImg=pygame.image.load("shutdown"+repr(movementBus.numberImg)+".png")  
         movementBus.screen.blit(floortextureImg, (0, rel_y - 103))
@@ -145,8 +166,11 @@ def movementStrip():
            detector.face()
            pygame.display.set_mode(movementBus.size)
            pygame.display.set_caption("Ventana")
+           movementBus.positionOfOutputMovement=135
+           
          else:
           movementBus.positionOfOutputMovement-=1
+          drawPoint(points)
           if movementBus.positionOfOutputMovement==50:
            from faceDetector import detector
            detector.face()
@@ -180,7 +204,12 @@ def movementStrip():
         movementBus.stationStop=0
         movementBus.numberImg+=1
         movementBus.cont=0
-        
+# Dibujar los puntos
+def drawPoint(points): 
+   randomSeat=random.randint(0,30)
+   pygame.draw.circle(movementBus.screen, red, points[randomSeat], 5)
+ 
+   
 
 def text_objects(text, font):
     # Función para renderizar texto
@@ -197,10 +226,9 @@ def framework():
                     paused()
         movementBus.screen.fill((119, 119, 119))
         movementBus.mouse = pygame.mouse.get_pos()  
-         
-        fund();
-        movementStrip();
+        fund();   
         busPositioning(0,0)  
+        movementStrip()
         mouse = pygame.mouse.get_pos()
         click = pygame.mouse.get_pressed()
         if 650 < mouse[0] < 800 and 0 < mouse[1] < 50:
@@ -209,17 +237,10 @@ def framework():
               paused()
         else:
             pygame.draw.rect(movementBus.screen, white, (650, 0, 150, 50))
-
         smallText = pygame.font.Font("freesansbold.ttf", 20)
         textSurf, textRect = text_objects("PAUSE", smallText)
         textRect.center = (725, 25)
         movementBus.screen.blit(textSurf, textRect)
         pygame.display.flip()
  
-        
-
 pass
-
-
-
-

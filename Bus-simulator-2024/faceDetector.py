@@ -1,15 +1,17 @@
 import cv2 
 import pygame
+import random
 class detector(object):
     def face():
      pygame.display.set_caption("Video Display")
      prototxt ="model/deploy.prototxt"
      model ="model/res10_300x300_ssd_iter_140000.caffemodel"
      net=cv2.dnn.readNetFromCaffe(prototxt,model)
+     randomVideo=random.randint(1,24)
      cap=cv2.VideoCapture("video/person1.mp4")
      GREEN = (0, 255, 0)
      YELLOW = (0, 255, 255)
-     screenVideo = pygame.display.set_mode((480, 864))
+     screenVideo = pygame.display.set_mode((400, 800))
      while True:
        ret, frame= cap.read()
        if ret==False:
