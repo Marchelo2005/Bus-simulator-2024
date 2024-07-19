@@ -15,7 +15,7 @@ class my_class(object):
         print(f"The error '{e}' occurred")
      return connection
 
-    connection = create_connection("localhost", "root", "", "game_db")
+    connection = create_connection("mysql-esestrada.alwaysdata.net", "esestrada_machel", "Paradais6666@.putini", "esestrada_simula")
 
 
     pass

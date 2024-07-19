@@ -16,6 +16,9 @@ points = [
         (267, 325), (243, 327), (265, 325), (266, 294), (243, 294),
         (266, 263), (243, 263), (266, 228)
     ]
+# Variable global para el dinero recaudado
+totalMoneyRaised = 0
+drawn_points = []  # Lista para almacenar los puntos dibujados
 class movementBus:
     pygame.init()
     size = (800, 600)
@@ -25,7 +28,8 @@ class movementBus:
     cont, stopCont, stationStop, personCont, pauseMov = 0, 0, 0, 0, 0
     acceleration, numberImg, movPerson=1,1,1
     positionOfOutputMovement=135
-    
+    orderMovement=False
+    randomValidator=True
 def paused():
     # Pausa 
     instructionBackgroundtwo=pygame.image.load("interfaz2.png")
@@ -71,8 +75,9 @@ def restartButton():
  if 350 < mouse[0] < 500 and 450 < mouse[1] < 500:
    pygame.draw.rect(movementBus.screen, silver, (350, 450, 150, 50))
    if click == (1, 0, 0):
-    movementStrip()
-    framework()  # Aquí puedes reiniciar tu juego
+    restart()
+    framework()
+    # Aquí puedes reiniciar tu juego
  else:
    pygame.draw.rect(movementBus.screen, white, (350, 450, 150, 50))
  smallText = pygame.font.Font("freesansbold.ttf", 20)
@@ -86,6 +91,7 @@ def mainMenuButton():
   if 600 < mouse[0] < 750 and 450 < mouse[1] < 500:
     pygame.draw.rect(movementBus.screen, silver, (600, 450, 150, 50))
     if click == (1, 0, 0):
+      restart()
       from Bus_simulator_2024 import Main
       Main.introLoop()
   else:
@@ -94,34 +100,39 @@ def mainMenuButton():
   textSurf, textRect = text_objects("MAIN MENU", smallText)
   textRect.center = (675, 475)
   movementBus.screen.blit(textSurf, textRect)   
-    
+def restart():
+   rel_y=0
+   drawn_points=[0]
+   movementBus.cont, movementBus.stopCont, movementBus.stationStop, movementBus.personCont, movementBus.pauseMov = 0, 0, 0, 0, 0
+   movementBus.acceleration,movementBus.numberImg, movementBus.movPerson=1,1,1
 def fund():
-     font=pygame.font.SysFont(None,20)  
-     moneyCollected=font.render("Money collected", True, (255,255,255))
-     maximumCapacity=font.render("Maximum capacity", True, (0,0,0))
-     passengers=font.render("Passengers", True, (0,0,0))
-     movementBus.screen.blit(moneyCollected, (460,25))
-     movementBus.screen.blit(maximumCapacity, (460,75))
-     movementBus.screen.blit(passengers, (460,125)) 
+    font=pygame.font.SysFont(None,20)  
+    moneyCollected = font.render(f"Total money raised: {totalMoneyRaised:.1f}", True, (0, 0, 0))
+    maximumCapacity = font.render("Maximum capacity 30", True, (0, 0, 0))
+    Totalstations = font.render("Total stations 10", True, (0, 0, 0))
+    passengers = font.render("Passengers", True, (0, 0, 0))
+    movementBus.screen.blit(moneyCollected, (460, 25))
+    movementBus.screen.blit(maximumCapacity, (460, 75))
+    movementBus.screen.blit(Totalstations, (460, 90))
+    movementBus.screen.blit(passengers, (460, 125))
+
 def busPositioning(x,y):
      busImg=pygame.image.load("staffBus.png")
      busInsideImg=pygame.image.load("busInside.png")
      movementBus.screen.blit(busImg,(700,200))  
      movementBus.screen.blit(busInsideImg,(100,50)) 
 def movementStrip():
+     global totalMoneyRaised 
      floortextureImg= pygame.image.load("grass.png")
      stripImg= pygame.image.load("strip.jpg")
      yellowStripImg=pygame.image.load("yellow_strip.jpg")
      stopImg=pygame.image.load("stop.png")
      person=pygame.image.load("persprue.png")
-     rel_y = movementBus.numberOfYellowStripImg % 103  
+     rel_y = movementBus.numberOfYellowStripImg % 103
      if movementBus.numberImg==11:
-        rel_y=0
-        movementBus.cont, movementBus.stopCont, movementBus.stationStop, movementBus.personCont, movementBus.pauseMov = 0, 0, 0, 0, 0
-        movementBus.acceleration,movementBus.numberImg, movementBus.movPerson=1,1,1
+        restart() 
         from Bus_simulator_2024 import Main
         Main.introLoop()
-        
      else:
         recreoStopImg=pygame.image.load("shutdown"+repr(movementBus.numberImg)+".png")  
         movementBus.screen.blit(floortextureImg, (0, rel_y - 103))
@@ -157,27 +168,34 @@ def movementStrip():
           movementBus.screen.blit(person,(60 ,movementBus.personCont-10))  
           movementBus.pauseMov=0
        else:
+         
          if movementBus.pauseMov < 40:
           movementBus.personCont += movementBus.movPerson
           movementBus.screen.blit(person, (movementBus.personCont % 150, 236))
           movementBus.pauseMov += 1
           if movementBus.pauseMov==40:
-           from faceDetector import detector
-           detector.face()
-           pygame.display.set_mode(movementBus.size)
-           pygame.display.set_caption("Ventana")
-           movementBus.positionOfOutputMovement=135
-           
+           for numberRandomVideo in range (1,random.randint(1,5),1):
+            from faceDetector import detector
+            detector.txtVideo="person"
+            detector.face()
+            totalMoneyRaised += 35 #pasaje
+            pygame.display.set_mode(movementBus.size)
+            pygame.display.set_caption("Ventana")
+            drawPoint(points)
+            movementBus.positionOfOutputMovement=135
+            movementBus.orderMovement=False
          else:
+          probabilityOfPeopleDrop=random.randint(0,1)
           movementBus.positionOfOutputMovement-=1
-          drawPoint(points)
-          if movementBus.positionOfOutputMovement==50:
+          if movementBus.positionOfOutputMovement==50 and movementBus.numberImg>1 and probabilityOfPeopleDrop==0:
            from faceDetector import detector
+           detector.txtVideo="exit"
            detector.face()
            pygame.display.set_mode(movementBus.size)
            pygame.display.set_caption("Ventana")
-          if movementBus.positionOfOutputMovement>0 and movementBus.positionOfOutputMovement<50:
-           movementBus.screen.blit(person, (movementBus.positionOfOutputMovement%135,416))
+           movementBus.orderMovement=True
+          if movementBus.positionOfOutputMovement>0 and movementBus.positionOfOutputMovement<50 and movementBus.orderMovement==True:
+            movementBus.screen.blit(person, (movementBus.positionOfOutputMovement%135,416))
            
        
           
@@ -206,10 +224,14 @@ def movementStrip():
         movementBus.cont=0
 # Dibujar los puntos
 def drawPoint(points): 
-   randomSeat=random.randint(0,30)
-   pygame.draw.circle(movementBus.screen, red, points[randomSeat], 5)
+   randomSeat = random.randint(0, 30)
+   point = points[randomSeat]
+   drawn_points.append(point)
+   pygame.draw.circle(movementBus.screen, red, point, 5)
  
-   
+def redrawPoints():
+    for point in drawn_points:
+       pygame.draw.circle(movementBus.screen, red, point, 5)   
 
 def text_objects(text, font):
     # Función para renderizar texto
@@ -229,6 +251,8 @@ def framework():
         fund();   
         busPositioning(0,0)  
         movementStrip()
+        redrawPoints()
+        
         mouse = pygame.mouse.get_pos()
         click = pygame.mouse.get_pressed()
         if 650 < mouse[0] < 800 and 0 < mouse[1] < 50:
