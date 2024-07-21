@@ -27,6 +27,7 @@ class Main:
         pygame.draw.rect(Main.screen, white, (80, 280, 150, 50))
         pygame.draw.rect(Main.screen, white, (327, 280, 165, 50))
         pygame.draw.rect(Main.screen, white, (580, 280, 150, 50))
+
         # Función de los botones
         Main.buttons()
 
