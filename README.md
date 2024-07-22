@@ -66,3 +66,41 @@ La base de datos utilizada en el proyecto es MySQL y se encarga de almacenar la 
 ### Ejemplo de tabla de usuarios
 
 ![Tabla de Usuarios](ruta/a/la/imagen_tabla_usuarios.png)
+
+Bus-simulator-2024/
+│
+├── .vs/
+│
+├── assets/
+│   ├── assetsBus/
+│   ├── assetsComplements/
+│   ├── assetsGrass/
+│   ├── assetsInterface/
+│   ├── assetsPerson/
+│   ├── assetsShutdown/
+│
+├── game/
+│   ├── __init__.py
+│   ├── game_logic.py
+│   ├── movement_bus.py
+│
+├── model/
+│   ├── deploy.prototxt
+│   ├── res10_300x300_ssd_iter_140000.caffemodel
+│
+├── ui/
+│   ├── buttons.py
+│   ├── main_menu.py
+│   ├── screens.py
+│   ├── ui_elements.py
+│
+├── utils/
+│   ├── connector_database.py
+│   ├── constants.py
+│   ├── face_detector.py
+│
+├── video/
+│
+├── __pycache__/
+│
+└── README.md
