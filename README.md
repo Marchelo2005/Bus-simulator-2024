@@ -67,6 +67,9 @@ La base de datos utilizada en el proyecto es MySQL y se encarga de almacenar la 
 
 ![Tabla de Usuarios](ruta/a/la/imagen_tabla_usuarios.png)
 
+## Estructura del Proyecto
+
+```plaintext
 Bus-simulator-2024/
 │
 ├── .vs/
@@ -104,3 +107,4 @@ Bus-simulator-2024/
 ├── __pycache__/
 │
 └── README.md
+
