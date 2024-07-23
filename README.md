@@ -24,7 +24,32 @@ Bus Simulator 2024 es un proyecto de programación en Python que simula el funci
 
 <img width="596" alt="Captura de pantalla 2024-07-22 204956" src="https://github.com/user-attachments/assets/d9e2544f-31b3-46a3-8428-1a0d1ec5ec9c">
 
+## Detector de Caras
 
+El detector de caras en Bus Simulator 2024 utiliza la librería `cv2` de OpenCV para detectar y contar el número de personas que suben al bus en cada estación. Este componente es fundamental para simular la interacción de los pasajeros con el bus, permitiendo un conteo preciso y la asignación aleatoria de asientos. A continuación se describen los elementos clave del detector de caras:
+
+- **Librería Utilizada**: El detector de caras está implementado utilizando OpenCV (`cv2`), una biblioteca de visión por computadora muy popular.
+- **Modelo Preentrenado**: Utiliza un modelo de red neuronal convolucional preentrenado, conocido como `res10_300x300_ssd_iter_140000.caffemodel`, que es eficaz para la detección de rostros en tiempo real.
+- **Precisión y Eficiencia**: El detector es capaz de identificar múltiples rostros en una sola imagen con alta precisión, asegurando un conteo exacto de las personas que suben al bus.
+- **Integración con el Sistema**: Cada vez que una persona sube al bus, el detector de caras registra su presencia y asigna un asiento de manera aleatoria. Además, actualiza la base de datos con esta información para mantener un registro detallado.
+
+### Ejemplo de Detección de Caras
+
+
+
+
+https://github.com/user-attachments/assets/1a5b2d4a-eff1-4669-bb20-ba95a297af99
+
+
+
+
+
+
+A continuación se muestra un ejemplo visual de cómo el detector de caras identifica y cuenta a las personas en una imagen:
+
+
+
+En la imagen, se pueden ver los cuadros delimitadores alrededor de los rostros detectados, lo que indica que el sistema ha reconocido correctamente a cada individuo.
 
 ## Motivación
 
