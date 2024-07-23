@@ -22,8 +22,9 @@
 
 Bus Simulator 2024 es un proyecto de programación en Python que simula el funcionamiento de un bus que realiza paradas en un total de 10 estaciones. En cada estación, el sistema cuenta cuántas personas entraron y cuáles asientos eligieron mediante reconocimiento de rostros. El cobro por cada persona que sube es de 0.35 centavos. Al finalizar todas las estaciones, el programa muestra el total de personas que se subieron y la recaudación total. La simulación incluye un efecto visual con la carretera para dar la impresión de que el bus está en movimiento.
 
-![Imagen de la Simulación](<img width="596" alt="Captura de pantalla 2024-07-22 204956" src="https://github.com/user-attachments/assets/6b659874-47f4-43b0-a90e-4d452c74ba41">
-)
+<img width="596" alt="Captura de pantalla 2024-07-22 204956" src="https://github.com/user-attachments/assets/d9e2544f-31b3-46a3-8428-1a0d1ec5ec9c">
+
+
 
 ## Motivación
 
@@ -66,8 +67,9 @@ La base de datos utilizada en el proyecto es MySQL y se encarga de almacenar la 
 
 ### Ejemplo de tabla de usuarios
 
-![Tabla de Usuarios](<img width="263" alt="Captura de pantalla 2024-07-22 233418" src="https://github.com/user-attachments/assets/0621f476-2bed-4def-bb73-b73684a8c014">
-)
+<img width="263" alt="Captura de pantalla 2024-07-22 233418" src="https://github.com/user-attachments/assets/8e9659ae-643c-4337-b388-0746dcae05c2">
+
+
 
 ## Estructura del Proyecto
 
