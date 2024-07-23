@@ -80,7 +80,8 @@ Aprendimos nuevas metodologías, funciones, casos, variables enteras y variables
 4. Saldrá una nueva advertencia. Ve a "Más información" y selecciona "De todas formas, mantener".
 5. Abre `BusSimulator2024.exe`.
 
-![Imagen de la Instalación](ruta/a/la/imagen_instalacion.png)
+![510c84bb-6e8f-4b30-8f24-9be937853781](https://github.com/user-attachments/assets/116ff195-a542-4fdf-9382-e94ff40fe8d8)
+
 
 ## ¿Qué destaca en su proyecto?
 
