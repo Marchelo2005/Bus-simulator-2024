@@ -1,4 +1,4 @@
-# Git Hut: Simulador de Bus
+#  Simulador de Bus
 
 ## Asignatura
 
