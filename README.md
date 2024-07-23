@@ -86,11 +86,11 @@ Aprendimos nuevas metodologías, funciones, casos, variables enteras y variables
 
 Mi proyecto se destaca en su interfaz gráfica, su facilidad de uso y también la comunicación con los colaboradores.
 
-## Descripción de la base de datos
+## Descripción de la base de datos (esestrada_simula)
 
 La base de datos utilizada en el proyecto es MySQL y se encarga de almacenar la información relacionada con las personas que suben al bus, los asientos que eligen y la recaudación total. La estructura de la base de datos incluye tablas para usuarios, transacciones y estaciones.
 
-### Ejemplo de tabla de usuarios
+### Ejemplo de tabla de usuarios (ACCOUNTINGTWO)
 
 <img width="263" alt="Captura de pantalla 2024-07-22 233418" src="https://github.com/user-attachments/assets/8e9659ae-643c-4337-b388-0746dcae05c2">
 
