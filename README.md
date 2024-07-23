@@ -30,7 +30,6 @@ El detector de caras en Bus Simulator 2024 utiliza la librería `cv2` de OpenCV 
 
 - **Librería Utilizada**: El detector de caras está implementado utilizando OpenCV (`cv2`), una biblioteca de visión por computadora muy popular.
 - **Modelo Preentrenado**: Utiliza un modelo de red neuronal convolucional preentrenado, conocido como `res10_300x300_ssd_iter_140000.caffemodel`, que es eficaz para la detección de rostros en tiempo real.
-- **Precisión y Eficiencia**: El detector es capaz de identificar múltiples rostros en una sola imagen con alta precisión, asegurando un conteo exacto de las personas que suben al bus.
 - **Integración con el Sistema**: Cada vez que una persona sube al bus, el detector de caras registra su presencia y asigna un asiento de manera aleatoria. Además, actualiza la base de datos con esta información para mantener un registro detallado.
 
 ### Ejemplo de Detección de Caras
