@@ -52,7 +52,11 @@ En la imagen, se pueden ver los cuadros delimitadores alrededor de los rostros d
 
 ## Motivación
 
-La motivación de este proyecto fue poner en práctica lo que hemos aprendido, ya que vemos la base de este programa en Apache NetBeans con código Java.
+La motivación detrás del desarrollo de Bus Simulator 2024 surge de la necesidad de aplicar y consolidar los conocimientos adquiridos en el curso de Programación 1. A lo largo del curso, hemos estudiado diversos conceptos y técnicas de programación, incluyendo funciones, métodos, clases, manejo de bases de datos, y el desarrollo de interfaces gráficas. Este proyecto nos proporciona una oportunidad única para integrar todos estos elementos en una aplicación práctica y funcional.
+
+
+Nuestro objetivo principal fue desarrollar un proyecto que reflejara el nivel de conocimiento y competencia que hemos alcanzado, al mismo tiempo que nos enfrentamos a desafíos reales de programación y diseño. Esperamos que Bus Simulator 2024 no solo sea una demostración de nuestras capacidades, sino también una inspiración para futuros proyectos y desarrollos en el campo de la programación.
+
 
 ## ¿Por qué se construyó este proyecto?
 
