@@ -94,6 +94,9 @@ Mi proyecto se destaca en su interfaz gráfica, su facilidad de uso y también l
 
 La base de datos utilizada en el proyecto es MySQL y se encarga de almacenar la información relacionada con las personas que suben al bus, los asientos que eligen y la recaudación total. La estructura de la base de datos incluye tablas para usuarios, transacciones y estaciones.
 
+Durante el desarrollo del proyecto, probamos diferentes opciones de bases de datos y concluimos que Alwaysdata fue la mejor opción debido a su oferta de 100 MB de espacio gratuito y por estar en la nube. Esta capacidad nos permite almacenar toda la información necesaria sin costos adicionales y facilita el acceso a los datos desde cualquier ubicación, proporcionando flexibilidad y escalabilidad.
+
+
 ### Ejemplo de tabla de usuarios (ACCOUNTINGTWO)
 
 <img width="263" alt="Captura de pantalla 2024-07-22 233418" src="https://github.com/user-attachments/assets/8e9659ae-643c-4337-b388-0746dcae05c2">
