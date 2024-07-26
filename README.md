@@ -87,6 +87,9 @@ Aprendimos nuevas metodologías, funciones, casos, variables enteras y variables
 
 ![510c84bb-6e8f-4b30-8f24-9be937853781](https://github.com/user-attachments/assets/116ff195-a542-4fdf-9382-e94ff40fe8d8)
 
+Video Tutorial
+##https://www.youtube.com/watch?v=qORN56tScEU
+
 
 ## ¿Qué destaca en su proyecto?
 
