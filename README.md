@@ -107,7 +107,7 @@ Durante el desarrollo del proyecto, probamos diferentes opciones de bases de dat
 ## Databases - MySQL
 ![image](https://github.com/user-attachments/assets/df9e698b-bf4b-45fc-b55e-ea1f88e13f34)
 
-##phpMyAdmin
+## phpMyAdmin
 ![image](https://github.com/user-attachments/assets/9f61a0dd-7933-489f-9ad0-65a4de8e224b)
 
 ### Ejemplo de tabla de usuarios (ACCOUNTINGTWO)
