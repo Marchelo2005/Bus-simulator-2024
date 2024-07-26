@@ -16,7 +16,8 @@
 
 - Visual Studio Code versión 17.0.14
 - MySQL
-- Funciones, Métodos, Clases, Concatenación, Tablas, Interfaz Gráfica, Componentes, Gráficos, Editores (Krita), Base de Datos, Importaciones, Colores, Videos, Posiciones, Bucles, Condiciones
+- Funciones, Métodos, Clases, Concatenación, Tablas, Interfaz Gráfica, Componentes, Gráficos, Editores (Krita), Base de Datos, Importaciones, Colores, Videos, Posiciones, Bucles, Condiciones, Objetos
+
 
 ## Descripción
 
