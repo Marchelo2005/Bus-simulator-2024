@@ -144,3 +144,4 @@ Bus-simulator-2024/
 │
 └── README.md
 
+https://youtube.com/shorts/GQObzGnVibA?si=UBIfqSVLVzO1tzFF
