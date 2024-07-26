@@ -14,8 +14,9 @@
 
 ## Descripción del repositorio
 
-- Visual Studio Code versión 17.0.14
-- MySQL
+- Visual Studio 2022 versión 17.0.14
+- Python Version 3.12.4
+- MySQL 8.4.1
 - Funciones, Métodos, Clases, Concatenación, Tablas, Interfaz Gráfica, Componentes, Gráficos, Editores (Krita), Base de Datos, Importaciones, Colores, Videos, Posiciones, Bucles, Condiciones, Objetos
 
 
