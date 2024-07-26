@@ -101,6 +101,14 @@ La base de datos utilizada en el proyecto es MySQL y se encarga de almacenar la 
 
 Durante el desarrollo del proyecto, probamos diferentes opciones de bases de datos y concluimos que Alwaysdata fue la mejor opción debido a su oferta de 100 MB de espacio gratuito y por estar en la nube. Esta capacidad nos permite almacenar toda la información necesaria sin costos adicionales y facilita el acceso a los datos desde cualquier ubicación, proporcionando flexibilidad y escalabilidad.
 
+## Base de Datos alwaysdata
+![image](https://github.com/user-attachments/assets/a055667b-b10a-4382-ab6c-2d4f16c3fbf9)
+
+## Databases - MySQL
+![image](https://github.com/user-attachments/assets/df9e698b-bf4b-45fc-b55e-ea1f88e13f34)
+
+##phpMyAdmin
+![image](https://github.com/user-attachments/assets/9f61a0dd-7933-489f-9ad0-65a4de8e224b)
 
 ### Ejemplo de tabla de usuarios (ACCOUNTINGTWO)
 
