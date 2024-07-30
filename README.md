@@ -19,6 +19,53 @@
 - MySQL 8.4.1
 - Funciones, Métodos, Clases, Concatenación, Tablas, Interfaz Gráfica, Componentes, Gráficos, Editores (Krita), Base de Datos, Importaciones, Colores, Videos, Posiciones, Bucles, Condiciones, Objetos
 
+## Requerimientos Funcionales
+
+### Detección y Conteo de Pasajeros
+- Implementar un sistema que utilice la librería `cv2` de OpenCV para detectar y contar el número de personas que suben al bus en cada estación.
+
+### Asignación de Asientos
+- Asignar aleatoriamente asientos a cada pasajero detectado por el sistema.
+
+### Recaudación de Tarifas
+- Calcular y registrar una tarifa de 0.35 centavos por cada pasajero que sube al bus.
+
+### Gestión de Estaciones
+- Simular paradas en un total de 10 estaciones.
+
+### Base de Datos
+- Almacenar la información de los pasajeros, los asientos ocupados y la recaudación total en una base de datos MySQL.
+- La tabla de base de datos debe incluir al menos los campos: `ID` (identificador único), `date` (fecha y hora del evento), `totalPersons` (número total de personas) y `totalMoney` (dinero total recaudado).
+
+### Simulación Visual del Movimiento del Bus
+- Crear un efecto visual que simule el movimiento del bus por la carretera.
+
+### Interfaz Gráfica de Usuario (GUI)
+- Desarrollar una interfaz gráfica para que los usuarios puedan interactuar con el simulador de manera intuitiva.
+
+### Actualización en Tiempo Real
+- Actualizar los datos en la base de datos cada vez que se detectan nuevos pasajeros y se asignan asientos.
+
+## Requerimientos No Funcionales
+
+### Compatibilidad
+- El sistema debe funcionar en sistemas operativos Windows 10, Windows 11 y MacOS versión 12.7.5 o posterior.
+
+### Rendimiento
+- La detección de rostros y procesamiento deben ocurrir en tiempo real, sin retrasos perceptibles para el usuario.
+
+### Escalabilidad
+- El sistema debe ser capaz de manejar un creciente número de registros de pasajeros y transacciones sin afectar negativamente el rendimiento.
+
+### Facilidad de Uso
+- La interfaz gráfica de usuario (GUI) debe ser intuitiva y fácil de navegar para los usuarios, incluso aquellos con poca experiencia técnica.
+
+### Disponibilidad
+- La base de datos debe estar alojada en la nube para permitir el acceso desde cualquier ubicación con conexión a Internet.
+
+### Documentación y Tutoriales
+- Debe haber documentación adecuada y tutoriales (incluyendo videos) que guíen a los usuarios en la instalación, configuración y uso del sistema.
+
 
 ## Descripción
 
