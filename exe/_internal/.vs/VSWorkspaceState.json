@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\ui",
+    "\\src\\ui\\mainMenu",
+    "\\src\\ui\\mainMenu\\introLoop",
+    "\\src\\utils",
+    "\\src\\utils\\constants",
+    "\\src\\utils\\constants\\constantWindow"
+  ],
+  "SelectedNode": "\\src\\Bus_simulator_2024.py",
+  "PreviewInSolutionExplorer": false
+}
