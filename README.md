@@ -159,7 +159,7 @@ Durante el desarrollo del proyecto, probamos diferentes opciones de bases de dat
 ## phpMyAdmin
 ![image](https://github.com/user-attachments/assets/9f61a0dd-7933-489f-9ad0-65a4de8e224b)
 
-### Ejemplo de tabla de usuarios (ACCOUNTINGTWO)
+### Ejemplo de tabla de usuarios (ACCOUNTINGTWO)-(PRIMERA_PRUEBA)
 
 <img width="263" alt="Captura de pantalla 2024-07-22 233418" src="https://github.com/user-attachments/assets/8e9659ae-643c-4337-b388-0746dcae05c2">
 
