@@ -163,50 +163,9 @@ Durante el desarrollo del proyecto, probamos diferentes opciones de bases de dat
 
 <img width="263" alt="Captura de pantalla 2024-07-22 233418" src="https://github.com/user-attachments/assets/8e9659ae-643c-4337-b388-0746dcae05c2">
 
+###  tabla de usuarios (busAccounting)-(FINAL)
 
-
-## Estructura del Proyecto
-
-```plaintext
-Bus-simulator-2024/
-│
-├── .vs/
-│
-├── assets/
-│   ├── assetsBus/
-│   ├── assetsComplements/
-│   ├── assetsGrass/
-│   ├── assetsInterface/
-│   ├── assetsPerson/
-│   ├── assetsShutdown/
-│
-├── game/
-│   ├── __init__.py
-│   ├── game_logic.py
-│   ├── movement_bus.py
-│
-├── model/
-│   ├── deploy.prototxt
-│   ├── res10_300x300_ssd_iter_140000.caffemodel
-│
-├── ui/
-│   ├── buttons.py
-│   ├── main_menu.py
-│   ├── screens.py
-│   ├── ui_elements.py
-│
-├── utils/
-│   ├── connector_database.py
-│   ├── constants.py
-│   ├── face_detector.py
-│
-├── video/
-│
-├── __pycache__/
-│
-└── README.md
-
-
+![image](https://github.com/user-attachments/assets/8784488c-c99e-4670-bbc2-dcc029e66389)
 
 
 
