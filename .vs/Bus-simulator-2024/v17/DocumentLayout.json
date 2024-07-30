@@ -1,0 +1,542 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\dataBase\\connectorDb\\connector_database.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\dataBase\\connectorDb\\connector_database.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movementBus.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\movementBus.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\videoPointExit.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\pointsAndVideos\\videoPointExit.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\drawPoint\\drawPoint.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\pointsAndVideos\\drawPoint\\drawPoint.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C52B40-F506-42F3-9525-102726257116}|src\\Bus-simulator-2024.pyproj|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\Bus_simulator_2024.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{44C52B40-F506-42F3-9525-102726257116}|src\\Bus-simulator-2024.pyproj|solutionrelative:src\\Bus_simulator_2024.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\videoPointInput.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\pointsAndVideos\\videoPointInput.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\fund\\fund.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\fund\\fund.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementStrip.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\movement\\movementStrip.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\faceDetector\\face_detector.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\faceDetector\\face_detector.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\drawPoint\\deletePoint.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\pointsAndVideos\\drawPoint\\deletePoint.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\framework\\framework.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\framework\\framework.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\constants\\constantPoint\\constantPoint.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\constants\\constantPoint\\constantPoint.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\variables\\variable\\variable.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\variables\\variable\\variable.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementPerson.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\movement\\movementPerson.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\constants\\constantColor\\constantColor.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\constants\\constantColor\\constantColor.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\constants\\constantWindow\\constantWindow.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\constants\\constantWindow\\constantWindow.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\imgEnvironment\\img.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\imgEnvironment\\img.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\mainMenu\\instruction\\instruction.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\menu\\mainMenu\\instruction\\instruction.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\mainMenu\\introLoop\\introLoop.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\menu\\mainMenu\\introLoop\\introLoop.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementGrass.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\movement\\movementGrass.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementShutdown.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\movement\\movementShutdown.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementStop.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\movement\\movementStop.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\drawPoint\\redrawPoints.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\pointsAndVideos\\drawPoint\\redrawPoints.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\speed\\speed.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\speed\\speed.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\valueReset\\valueReset.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\valueReset\\valueReset.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttons.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\menu\\buttons\\buttons.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonClose\\buttonClose.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\menu\\buttons\\buttonClose\\buttonClose.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonBack\\buttonBack.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\menu\\buttons\\buttonBack\\buttonBack.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonIntroduction\\buttonIntroduction.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\menu\\buttons\\buttonIntroduction\\buttonIntroduction.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonStart\\buttonStart.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\menu\\buttons\\buttonStart\\buttonStart.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\positioning\\busPositioning.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\movementBus\\positioning\\busPositioning.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 29,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "movementBus.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movementBus.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\movementBus.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movementBus.py",
+              "RelativeToolTip": "src\\movementBus\\movementBus.py",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:41:08.624Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "drawPoint.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\drawPoint\\drawPoint.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\pointsAndVideos\\drawPoint\\drawPoint.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\drawPoint\\drawPoint.py",
+              "RelativeToolTip": "src\\movementBus\\pointsAndVideos\\drawPoint\\drawPoint.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:38:46.216Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "introLoop.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\mainMenu\\introLoop\\introLoop.py",
+              "RelativeDocumentMoniker": "src\\menu\\mainMenu\\introLoop\\introLoop.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\mainMenu\\introLoop\\introLoop.py",
+              "RelativeToolTip": "src\\menu\\mainMenu\\introLoop\\introLoop.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-21T18:34:29.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "movementStrip.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementStrip.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\movement\\movementStrip.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementStrip.py",
+              "RelativeToolTip": "src\\movementBus\\movement\\movementStrip.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T00:55:26.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bus_simulator_2024.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\Bus_simulator_2024.py",
+              "RelativeDocumentMoniker": "src\\Bus_simulator_2024.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\Bus_simulator_2024.py",
+              "RelativeToolTip": "src\\Bus_simulator_2024.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-21T18:01:17.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "buttonIntroduction.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonIntroduction\\buttonIntroduction.py",
+              "RelativeDocumentMoniker": "src\\menu\\buttons\\buttonIntroduction\\buttonIntroduction.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonIntroduction\\buttonIntroduction.py",
+              "RelativeToolTip": "src\\menu\\buttons\\buttonIntroduction\\buttonIntroduction.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-21T18:50:15.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "buttonBack.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonBack\\buttonBack.py",
+              "RelativeDocumentMoniker": "src\\menu\\buttons\\buttonBack\\buttonBack.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonBack\\buttonBack.py",
+              "RelativeToolTip": "src\\menu\\buttons\\buttonBack\\buttonBack.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-26T04:12:53.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "movementGrass.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementGrass.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\movement\\movementGrass.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementGrass.py",
+              "RelativeToolTip": "src\\movementBus\\movement\\movementGrass.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T01:27:09.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "movementShutdown.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementShutdown.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\movement\\movementShutdown.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementShutdown.py",
+              "RelativeToolTip": "src\\movementBus\\movement\\movementShutdown.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T02:29:46.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "movementPerson.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementPerson.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\movement\\movementPerson.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementPerson.py",
+              "RelativeToolTip": "src\\movementBus\\movement\\movementPerson.py",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T17:46:45.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "constantPoint.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\constants\\constantPoint\\constantPoint.py",
+              "RelativeDocumentMoniker": "src\\utils\\constants\\constantPoint\\constantPoint.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\constants\\constantPoint\\constantPoint.py",
+              "RelativeToolTip": "src\\utils\\constants\\constantPoint\\constantPoint.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T18:04:58.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "constantColor.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\constants\\constantColor\\constantColor.py",
+              "RelativeDocumentMoniker": "src\\utils\\constants\\constantColor\\constantColor.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\constants\\constantColor\\constantColor.py",
+              "RelativeToolTip": "src\\utils\\constants\\constantColor\\constantColor.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T18:05:53.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "constantWindow.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\constants\\constantWindow\\constantWindow.py",
+              "RelativeDocumentMoniker": "src\\utils\\constants\\constantWindow\\constantWindow.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\constants\\constantWindow\\constantWindow.py",
+              "RelativeToolTip": "src\\utils\\constants\\constantWindow\\constantWindow.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-21T22:18:10.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "buttonStart.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonStart\\buttonStart.py",
+              "RelativeDocumentMoniker": "src\\menu\\buttons\\buttonStart\\buttonStart.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonStart\\buttonStart.py",
+              "RelativeToolTip": "src\\menu\\buttons\\buttonStart\\buttonStart.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T18:06:57.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "buttonClose.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonClose\\buttonClose.py",
+              "RelativeDocumentMoniker": "src\\menu\\buttons\\buttonClose\\buttonClose.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttonClose\\buttonClose.py",
+              "RelativeToolTip": "src\\menu\\buttons\\buttonClose\\buttonClose.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T18:07:49.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "variable.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\variables\\variable\\variable.py",
+              "RelativeDocumentMoniker": "src\\utils\\variables\\variable\\variable.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\variables\\variable\\variable.py",
+              "RelativeToolTip": "src\\utils\\variables\\variable\\variable.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T01:45:34.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "face_detector.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\faceDetector\\face_detector.py",
+              "RelativeDocumentMoniker": "src\\utils\\faceDetector\\face_detector.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\faceDetector\\face_detector.py",
+              "RelativeToolTip": "src\\utils\\faceDetector\\face_detector.py",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T18:46:40.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "instruction.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\mainMenu\\instruction\\instruction.py",
+              "RelativeDocumentMoniker": "src\\menu\\mainMenu\\instruction\\instruction.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\mainMenu\\instruction\\instruction.py",
+              "RelativeToolTip": "src\\menu\\mainMenu\\instruction\\instruction.py",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:24:03.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "videoPointInput.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\videoPointInput.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\pointsAndVideos\\videoPointInput.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\videoPointInput.py",
+              "RelativeToolTip": "src\\movementBus\\pointsAndVideos\\videoPointInput.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:38:32.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "videoPointExit.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\videoPointExit.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\pointsAndVideos\\videoPointExit.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\videoPointExit.py",
+              "RelativeToolTip": "src\\movementBus\\pointsAndVideos\\videoPointExit.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:38:36.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "movementStop.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementStop.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\movement\\movementStop.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\movement\\movementStop.py",
+              "RelativeToolTip": "src\\movementBus\\movement\\movementStop.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:56:38.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "redrawPoints.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\drawPoint\\redrawPoints.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\pointsAndVideos\\drawPoint\\redrawPoints.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\drawPoint\\redrawPoints.py",
+              "RelativeToolTip": "src\\movementBus\\pointsAndVideos\\drawPoint\\redrawPoints.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:38:40.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "deletePoint.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\drawPoint\\deletePoint.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\pointsAndVideos\\drawPoint\\deletePoint.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\pointsAndVideos\\drawPoint\\deletePoint.py",
+              "RelativeToolTip": "src\\movementBus\\pointsAndVideos\\drawPoint\\deletePoint.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:38:43.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "speed.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\speed\\speed.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\speed\\speed.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\speed\\speed.py",
+              "RelativeToolTip": "src\\movementBus\\speed\\speed.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:38:53.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "valueReset.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\valueReset\\valueReset.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\valueReset\\valueReset.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\valueReset\\valueReset.py",
+              "RelativeToolTip": "src\\movementBus\\valueReset\\valueReset.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:38:58.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "img.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\imgEnvironment\\img.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\imgEnvironment\\img.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\imgEnvironment\\img.py",
+              "RelativeToolTip": "src\\movementBus\\imgEnvironment\\img.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:39:05.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "busPositioning.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\positioning\\busPositioning.py",
+              "RelativeDocumentMoniker": "src\\movementBus\\positioning\\busPositioning.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus\\positioning\\busPositioning.py",
+              "RelativeToolTip": "src\\movementBus\\positioning\\busPositioning.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-27T21:39:11.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "framework.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\framework\\framework.py",
+              "RelativeDocumentMoniker": "src\\framework\\framework.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\framework\\framework.py",
+              "RelativeToolTip": "src\\framework\\framework.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-28T00:32:08.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "buttons.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttons.py",
+              "RelativeDocumentMoniker": "src\\menu\\buttons\\buttons.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\menu\\buttons\\buttons.py",
+              "RelativeToolTip": "src\\menu\\buttons\\buttons.py",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-29T20:21:46.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "connector_database.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\dataBase\\connectorDb\\connector_database.py",
+              "RelativeDocumentMoniker": "src\\utils\\dataBase\\connectorDb\\connector_database.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\dataBase\\connectorDb\\connector_database.py",
+              "RelativeToolTip": "src\\utils\\dataBase\\connectorDb\\connector_database.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-30T02:33:11.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "movementBus.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus.py",
+              "RelativeDocumentMoniker": "src\\movementBus.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\movementBus.py",
+              "RelativeToolTip": "src\\movementBus.py",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-30T03:05:41.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fund.py",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\fund\\fund.py",
+              "RelativeDocumentMoniker": "src\\utils\\fund\\fund.py",
+              "ToolTip": "C:\\Users\\User\\Downloads\\Nueva carpeta\\Nueva carpeta\\Bus-simulator-2024\\src\\utils\\fund\\fund.py",
+              "RelativeToolTip": "src\\utils\\fund\\fund.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-07-30T03:10:18.069Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
