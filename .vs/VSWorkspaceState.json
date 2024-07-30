@@ -1,5 +1,6 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\src",
     "\\src\\movementBus",
@@ -8,6 +9,9 @@
     "\\src\\utils",
     "\\src\\utils\\faceDetector",
     "\\src\\utils\\variables"
+=======
+    ""
+>>>>>>> 4fc2a07b0a1e57e58c259662d684cb06b1cc720c
   ],
   "SelectedNode": "\\Bus-simulator-2024.sln",
   "PreviewInSolutionExplorer": false

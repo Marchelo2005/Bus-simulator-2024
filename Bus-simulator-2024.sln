@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bus-simulator-2024", "src\Bus-simulator-2024.pyproj", "{44C52B40-F506-42F3-9525-102726257116}"
+=======
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Bus-simulator-2024", "Bus-simulator-2024\Bus-simulator-2024.pyproj", "{44C52B40-F506-42F3-9525-102726257116}"
+>>>>>>> 4fc2a07b0a1e57e58c259662d684cb06b1cc720c
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,5 +23,9 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5FA030CA-EB9C-4361-B530-CE259BA60237}
+<<<<<<< HEAD
 	EndGlobalSectionSS
+=======
+	EndGlobalSection
+>>>>>>> 4fc2a07b0a1e57e58c259662d684cb06b1cc720c
 EndGlobal
